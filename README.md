@@ -1,9 +1,10 @@
-[![EN](https://user-images.githubusercontent.com/9499881/33184537-7be87e86-d096-11e7-89bb-f3286f752bc6.png)](https://github.com/r57zone/DSAdvance/) 
-[![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/DSAdvance/blob/master/README.RU.md)
+[![EN](https://user-images.githubusercontent.com/9499881/33184537-7be87e86-d096-11e7-89bb-f3286f752bc6.png)](https://github.com/r57zone/XboxExternalPedals/) 
+[![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/XboxExternalPedals/blob/master/README.RU.md)
 &#8211; Other languages / Другие языки
 
 # Xbox external pedals
 External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on Arduino work, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance) and [X360Advance](https://github.com/r57zone/X360Advance).
+
 ![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)
 
 # Soldering
