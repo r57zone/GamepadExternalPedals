@@ -4,6 +4,7 @@
 
 # Xbox external pedals
 External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on Arduino work, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance) and [X360Advance](https://github.com/r57zone/X360Advance).
+![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)
 
 # Soldering
 The first type of connection is used to connect pedals, with 2-pin potentiometers. A 10 kΩ resistor is soldered with one contact to A0, and the second contact to 5V. The second 10kom resistor is soldered to A1 and 5V. The potentiometer of the first pedal is soldered with one pin to A0, and the second pin to ground (GND). The potentiometer of the second pedal is soldered with one pin to A1, and the second pin to ground (GND).
