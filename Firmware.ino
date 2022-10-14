@@ -1,6 +1,6 @@
 // Setup
-int Pedal_1_Analog_Pin = 4;
-int Pedal_2_Analog_Pin = 5;
+int Pedal_1_Analog_Pin = 0;
+int Pedal_2_Analog_Pin = 1;
 
 // Calibration
 bool Calibration = false;
