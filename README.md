@@ -10,16 +10,15 @@ External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and 
 ## Soldering
 The first type of connection is used to connect pedals, with 2-pin potentiometers. A 10 kΩ resistor is soldered with one contact to A0, and the second contact to 5V. The second 10kom resistor is soldered to A1 and 5V. The potentiometer of the first pedal is soldered with one pin to A0, and the second pin to ground (GND). The potentiometer of the second pedal is soldered with one pin to A1, and the second pin to ground (GND).
 
-![](https://user-images.githubusercontent.com/9499881/195835452-441661bc-d72e-4ff1-8f68-62eaa4354ed8.png)
-
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/edcfe7f9-f512-42c0-84cd-197114c71043)
-
-
-The second type of connection is used to connect pedals, with 3-pin potentiometers. The center pins are connected to A0 and A1, the first pin is connected to 5V, the last pin to ground (GND).
 
 ![](https://user-images.githubusercontent.com/9499881/195835532-f015b3f1-0a9c-4ed3-ba92-752e9b09edca.png)
 
+The second type of connection is used to connect pedals, with 3-pin potentiometers. The center pins are connected to A0 and A1, the first pin is connected to 5V, the last pin to ground (GND).
+
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/bdaef474-e104-4162-8090-32edca4dcb46)
+
+![](https://user-images.githubusercontent.com/9499881/195835452-441661bc-d72e-4ff1-8f68-62eaa4354ed8.png)
 
 ## Setting up DInput pedals (MH-ET Live board)
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
