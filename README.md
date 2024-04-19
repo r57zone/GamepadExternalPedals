@@ -20,7 +20,7 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 
 ![](https://user-images.githubusercontent.com/9499881/195835452-441661bc-d72e-4ff1-8f68-62eaa4354ed8.png)
 
-## Setting up DInput pedals (MH-ET Live board)
+## Setup DInput pedals (MH-ET Live board)
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the latest [Digispark drivers](https://github.com/digistump/DigistumpArduino/releases/) ("Digistump.Drivers.zip").
 3. Launch the Arduino IDE, go to settings and add `http://drazzy.com/package_drazzy.com_index.json` in the "Additional links for board manager" field and click "OK".
