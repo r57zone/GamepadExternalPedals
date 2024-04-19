@@ -26,8 +26,8 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 3. Launch the Arduino IDE, go to settings and add `http://drazzy.com/package_drazzy.com_index.json` in the "Additional links for board manager" field and click "OK".
 4. Go to "Tools" -> "Board" -> "Board Manager", search for `ATTinyCore` and install.
 5. Copy [firmware contents for calibration](https://github.com/r57zone/XboxExternalPedals/blob/master/MH-ET%20Live/Calibration.ino), paste it into the Arduino IDE and click the "Upload" button.
-6. Connect the MH-Tiny ATTINY88 board within a second or press the boot button again. MH-Tiny ATTINY88 is flashed immediately after connection (you need to re-plug it for flashing).
-7. Open the notebook and press the pedals. The notepad will display the values for calibrating the pedals. Save your data.
+6. Connect the MH-Tiny ATTINY88 board after clicking the firmware or click the download button again. MH-Tiny ATTINY88 is flashed immediately after connection (you need to re-plug it for flashing).
+7. Open the notepad and press the pedals. The notepad will display values for pedal calibration. For reliability, you can repeat the procedure several times, with USB reconnection, and display the average values. Save your data.
 8. Copy [firmware contents](https://github.com/r57zone/XboxExternalPedals/blob/master/MH-ET%20Live/Firmware.ino) and paste into Arduino IDE. Change the parameters `Pedal1Min`, `Pedal1Max` and `Pedal2Min`, `Pedal2Max` to the previously saved ones and click the "Load" button. If necessary, adjust the values so that the percentage of pressing is across the entire pedal, and also enter the required percentage of the dead zone `DeadZonePercentPedal`.
 9. Enable DInput search for pedals in [DSAdvance](https://github.com/r57zone/DSAdvance) in the configuration file.
 
