@@ -2,7 +2,7 @@
 [![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/XboxExternalPedals/blob/master/README.RU.md)
 
 # Xbox external pedals
-Внешние педали для геймпадов: Xbox, DualSense, DualShock 4, Pro контроллеров и джойконов. Работают педали на базе DInput или Arduino, совместимы с программами: [DSAdvance](https://github.com/r57zone/DSAdvance) и [X360Advance](https://github.com/r57zone/X360Advance) (пока только Arduino). Рекомендую педали Logitech e-uk12, они довольно компактные и качественные.
+Внешние педали для геймпадов: Xbox, DualSense, DualShock 4, Pro контроллеров и джойконов. Работают педали на базе DInput или Arduino, совместимы с программами: [DSAdvance](https://github.com/r57zone/DSAdvance) и [X360Advance](https://github.com/r57zone/X360Advance). Рекомендую педали Logitech e-uk12, они довольно компактные и качественные.
 
 [![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
 

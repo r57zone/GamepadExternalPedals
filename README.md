@@ -3,7 +3,7 @@
 ← Choose language | Выберите язык
 
 # Xbox external pedals
-External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on DInput or Arduino, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance) and [X360Advance](https://github.com/r57zone/X360Advance) (only Arduino for now). I recommend the Logitech e-uk12 pedals, they are pretty compact and high quality.
+External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on DInput or Arduino, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance) and [X360Advance](https://github.com/r57zone/X360Advance). I recommend the Logitech e-uk12 pedals, they are pretty compact and high quality.
 
 [![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
 
