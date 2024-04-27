@@ -11,15 +11,23 @@
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/a949e917-2036-425d-9a41-ec9ec4fe7d8d)
 
+(MH-ET Live ATtiny88)
+
 ![](https://user-images.githubusercontent.com/9499881/195832530-b340d0af-6b0d-4104-8a02-5b61916017a0.png)
+
+(Arduino Nano)
 
 Второй тип подключения используется для подключения педалей с потанциометрами на 2 пина. Резистор на 10 кОм припаивается одним контактом на A0, а вторым контактом на 5В. Второй резистор на 10 кОм припаивается на А1 и 5В. Потанциометр первой педали припаивается одним контактом на А0, а вторым контактом на землю (GND). Потанциометр второй педали припаивается одним контактом на А1, а вторым контактом на землю (GND). 
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/c1aa6a34-2b31-47d2-a648-3b9150848572)
 
+(MH-ET Live ATtiny88)
+
 ![](https://user-images.githubusercontent.com/9499881/195828237-f4f72bb1-144a-4768-94bd-6808da9caba1.png)
 
-## Настройка DInput педалей (плата MH-ET Live)
+(Arduino Nano)
+
+## Настройка DInput педалей (плата MH-ET Live ATtiny88)
 1. Загрузите и установите [Arduino IDE](https://www.arduino.cc/en/software).
 2. Установите последние [драйверы Digispark](https://github.com/digistump/DigistumpArduino/releases/) ("Digistump.Drivers.zip").
 3. Запустите Arduino IDE, перейдите в настройки и добавьте `http://drazzy.com/package_drazzy.com_index.json` в поле "Дополнителньые ссылки для менеджера плат" и нажмите "ОК".

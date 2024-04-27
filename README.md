@@ -12,15 +12,23 @@ The first type of connection is used to connect pedals, with 2-pin potentiometer
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/edcfe7f9-f512-42c0-84cd-197114c71043)
 
+(MH-ET Live ATtiny88)
+
 ![](https://user-images.githubusercontent.com/9499881/195835532-f015b3f1-0a9c-4ed3-ba92-752e9b09edca.png)
+
+(Arduino Nano)
 
 The second type of connection is used to connect pedals, with 3-pin potentiometers. The center pins are connected to A0 and A1, the first pin is connected to 5V, the last pin to ground (GND).
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/bdaef474-e104-4162-8090-32edca4dcb46)
 
+(MH-ET Live ATtiny88)
+
 ![](https://user-images.githubusercontent.com/9499881/195835452-441661bc-d72e-4ff1-8f68-62eaa4354ed8.png)
 
-## Setup DInput pedals (MH-ET Live board)
+(Arduino Nano)
+
+## Setup DInput pedals (MH-ET Live ATtiny88 board)
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the latest [Digispark drivers](https://github.com/digistump/DigistumpArduino/releases/) ("Digistump.Drivers.zip").
 3. Launch the Arduino IDE, go to settings and add `http://drazzy.com/package_drazzy.com_index.json` in the "Additional links for board manager" field and click "OK".
