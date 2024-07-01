@@ -55,5 +55,9 @@ Simple utility for pressing keyboard keys with external pedals (only DInput).
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/6c25a843-4049-435f-adc7-24f35fe08f9a)
 
+>Version for Windows XP, Vista, 7, 8.1, 10, 11.
+
+**[Download](https://github.com/r57zone/XboxExternalPedals/releases)**
+
 ## Feedback
 `r57zone[at]gmail.com`

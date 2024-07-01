@@ -54,5 +54,9 @@
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/45d2abd2-11ed-4fef-af7e-c29f8c2dd8db)
 
+>Версия для Windows XP, Vista, 7, 8.1, 10, 11.
+
+**[Загрузить](https://github.com/r57zone/XboxExternalPedals/releases)**
+
 ## Обратная связь
 `r57zone[собака]gmail.com`
