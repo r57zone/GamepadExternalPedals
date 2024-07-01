@@ -53,7 +53,7 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 ## External Pedals Utility
 Simple utility for pressing keyboard keys with external pedals (only DInput).
 
-![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/6c25a843-4049-435f-adc7-24f35fe08f9a)
+![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/44f1a2d2-4d49-4479-a2ab-efc32ae13789)
 
 >Version for Windows XP, Vista, 7, 8.1, 10, 11.
 

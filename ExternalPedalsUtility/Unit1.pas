@@ -481,7 +481,7 @@ begin
 
   IDS_PEDALS_CONNECTED:='External Pedals: connected';
   IDS_NOT_CONNECTED:='External Pedals: not connected';
-  IDS_PEDALS_PRESSED:='Pedals pressed';
+  IDS_PEDALS_PRESSED:='Pedals pressed:';
   IDS_LEFT_PEDAL:='left';
   IDS_RIGHT_PEDAL:='right';
   IDS_ABOUT_TITLE:='About...';
