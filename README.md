@@ -3,7 +3,7 @@
 ← Choose language | Выберите язык
 
 # Xbox external pedals
-External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on DInput or Arduino, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance) and [X360Advance](https://github.com/r57zone/X360Advance). I recommend the Logitech e-uk12 pedals, they are pretty compact and high quality.
+External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on DInput or Arduino, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance), [X360Advance](https://github.com/r57zone/X360Advance) and [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/releases). I recommend the Logitech e-uk12 pedals, they are pretty compact and high quality.
 
 [![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171)](https://youtu.be/aK1SV_eXJ_4)
 [![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
@@ -39,6 +39,7 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 7. Open the notepad and press the pedals. The notepad will display values for pedal calibration. For reliability, you can repeat the procedure several times, with USB reconnection, and display the average values. Save your data.
 8. Copy [firmware contents](https://github.com/r57zone/XboxExternalPedals/blob/master/MH-ET%20Live/Firmware.ino) and paste into Arduino IDE. Change the parameters `Pedal1Min`, `Pedal1Max` and `Pedal2Min`, `Pedal2Max` to the previously saved ones and click the "Load" button. If necessary, adjust the values so that the percentage of pressing is across the entire pedal, and also enter the required percentage of the dead zone `DeadZonePercentPedal`.
 9. Enable DInput search for pedals in [DSAdvance](https://github.com/r57zone/DSAdvance) in the configuration file.
+10. You can also use the pedals to press keyboard keys, using [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/#external-pedals-utility), for example, to activate a function (such as recording video, Discord voice, and so on).
 
 ## Setup Arduino pedals
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
@@ -48,6 +49,11 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 5. Enter your values ​​to `PedalMin`, `PedalMax` into the sketch and re-sew it. Look at the results - "Out". If necessary, adjust the values ​​so that the percentage of depression is across the entire pedal, and also enter the desired percentage of the dead zone `DeadZonePercentPedal`.
 6. Change the sketch again, `bool Calibration = true;` to `bool Calibration = false;` to disable calibration mode.
 7. Change the COM port number in [DSAdvance](https://github.com/r57zone/DSAdvance) or [X360Advance](https://github.com/r57zone/X360Advance/), then the pedals are ready to play.
+
+## External Pedals Utility
+Simple utility for pressing keyboard keys with external pedals (only DInput).
+
+![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/6c25a843-4049-435f-adc7-24f35fe08f9a)
 
 ## Feedback
 `r57zone[at]gmail.com`

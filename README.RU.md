@@ -2,7 +2,7 @@
 [![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/XboxExternalPedals/blob/master/README.RU.md)
 
 # Xbox external pedals
-Внешние педали для геймпадов: Xbox, DualSense, DualShock 4, Pro контроллеров и джойконов. Работают педали на базе DInput или Arduino, совместимы с программами: [DSAdvance](https://github.com/r57zone/DSAdvance) и [X360Advance](https://github.com/r57zone/X360Advance). Рекомендую педали Logitech e-uk12, они довольно компактные и качественные.
+Внешние педали для геймпадов: Xbox, DualSense, DualShock 4, Pro контроллеров и джойконов. Работают педали на базе DInput или Arduino, совместимы с программами: [DSAdvance](https://github.com/r57zone/DSAdvance), [X360Advance](https://github.com/r57zone/X360Advance) и [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/releases). Рекомендую педали Logitech e-uk12, они довольно компактные и качественные.
 
 [![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171)](https://youtu.be/aK1SV_eXJ_4)
 [![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
@@ -38,6 +38,7 @@
 7. Откройте блокнот и нажимайте на педали. В блокнот будут выводиться значения для калибровки педалей. Для надежности можно повторить процедуру несколько раз, с перевтыканием USB и вывести средние значения. Сохраните данные.
 8. Скопируйте [содержимое прошивки](https://github.com/r57zone/XboxExternalPedals/blob/master/MH-ET%20Live/Firmware.ino) и вставье в Arduino IDE . Измените параметры `Pedal1Min`, `Pedal1Max` и `Pedal2Min`, `Pedal2Max` на ранее сохраненные и нажмите кнопку "Вгрузить". При необходимости подправьте значения так, чтобы процент нажатия был по всей педали, а также введите необходимый процент мёртвой зоны `DeadZonePercentPedal`.
 9. Включите поиск DInput педалей в [DSAdvance](https://github.com/r57zone/DSAdvance) в конфигурационном файле.
+10. Также можно использовать педали для нажатия кнопок клавиатуры, с помощью [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/blob/master/README.RU.md#external-pedals-utility), например, для активации какой-либо функции (например, записи видео, голоса Discord и так далее).
 
 ## Настройка Arduino педалей
 1. Загрузите и установите [Arduino IDE](https://www.arduino.cc/en/software).
@@ -47,6 +48,11 @@
 5. Введите ваши значения `PedalMin`, `PedalMax` в скетч и прошейте его заново. Посмотрите результаты - "Out". При необходимости подправьте значения так, чтобы процент нажатия был по всей педали, а также введите необходимый процент мёртвой зоны `DeadZonePercentPedal`.
 6. Измените в скетче снова, `bool Calibration = true;` на `bool Calibration = false;` для выключения режима калибровки.
 7. Измените номер COM-порта в программах [DSAdvance](https://github.com/r57zone/DSAdvance) или [X360Advance](https://github.com/r57zone/X360Advance/), после чего педали готовы к игре.
+
+## External Pedals Utility
+Простая утилита для нажатия клавиш клавиатуры внешними педалями (только DInput).
+
+![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/45d2abd2-11ed-4fef-af7e-c29f8c2dd8db)
 
 ## Обратная связь
 `r57zone[собака]gmail.com`
