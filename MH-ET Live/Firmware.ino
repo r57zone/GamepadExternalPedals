@@ -62,7 +62,8 @@ void setup()
 	DigiJoystick.setZROT((byte)0);
 	DigiJoystick.setXROT((byte)0);
 	DigiJoystick.setYROT((byte)0);
-	
+	pinMode(3, INPUT_PULLUP);
+	pinMode(4, INPUT_PULLUP);
 	// Another buttons for actions
     //for (int i = 0; i < 16; i++)
         //pinMode(buttonPins[i], INPUT_PULLUP);
@@ -88,6 +89,13 @@ void loop()
 		buttons |= 0x1;
 	if (PedalsValues[1] > 0.2)
 		buttons |= 0x2;
+	
+	// Shifter
+	if (digitalRead(3) == LOW)
+		buttons |= 0x4;
+	if (digitalRead(4) == LOW)
+		buttons |= 0x8;
+	
 	//if (PedalsValues[2] > 0.2)
 		//buttons |= 0x4;
 	
