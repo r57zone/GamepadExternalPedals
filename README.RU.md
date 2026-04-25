@@ -28,6 +28,10 @@
 
 (Arduino Nano)
 
+
+
+Также если вы хотите переключатель скоростей, дополнителньый рычаг, то можно приобрести `mono lever switch` на [AliExpress](https://aliexpress.ru/wholesale?SearchText=mono+lever+switch) или [Ozon](https://www.ozon.ru/product/dzhoystik-upravleniya-pereklyuchatel-s-samoblokirovkoy-2-polozheniya-spst-2no-dlya-3109366026/) и припаять D3 и D4 к одному контакту кнопок, а землю ко второму контакту кнопок.
+
 ## Настройка DInput педалей (плата MH-ET Live ATtiny88)
 1. Загрузите и установите [Arduino IDE](https://www.arduino.cc/en/software).
 2. Установите последние [драйверы Digispark](https://github.com/digistump/DigistumpArduino/releases/) ("Digistump.Drivers.zip").

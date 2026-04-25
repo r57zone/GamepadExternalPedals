@@ -29,6 +29,11 @@ The second type of connection is used to connect pedals, with 3-pin potentiomete
 
 (Arduino Nano)
 
+
+
+Also, if you want a speed selector with an additional lever, you can buy a `mono lever switch` on [AliExpress](https://aliexpress.com/wholesale?SearchText=mono+lever+switch&) and solder D3 and D4 to one terminal of the switch contacts, and connect ground to the other terminal of the contacts.
+
+
 ## Setup DInput pedals (MH-ET Live ATtiny88 board)
 1. Download and install [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the latest [Digispark drivers](https://github.com/digistump/DigistumpArduino/releases/) ("Digistump.Drivers.zip").

@@ -62,8 +62,8 @@ void setup()
 	DigiJoystick.setZROT((byte)0);
 	DigiJoystick.setXROT((byte)0);
 	DigiJoystick.setYROT((byte)0);
-	pinMode(3, INPUT_PULLUP);
-	pinMode(4, INPUT_PULLUP);
+	pinMode(3, INPUT_PULLUP); // Shifter
+	pinMode(4, INPUT_PULLUP); // Shifter
 	// Another buttons for actions
     //for (int i = 0; i < 16; i++)
         //pinMode(buttonPins[i], INPUT_PULLUP);
