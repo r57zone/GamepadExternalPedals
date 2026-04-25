@@ -9,12 +9,12 @@ byte buttons = 0x00;
 
 // Added 15 to the minimum and subtracted 15 from the maximum, it's better that way. A little deadzone wouldn't hurt from interference back and forth
 // Прибавил к минимуму 15 и вычел 15 из максимума, так будет получше. Небольшая дедзона не помешает от помех туда сюда
-int Pedal1Min = 127;
-int Pedal1Max = 811;
+int Pedal1Min = 110;
+int Pedal1Max = 829;
 int DeadZonePercentPedal1 = 2;
 
-int Pedal2Min = 188;
-int Pedal2Max = 895;
+int Pedal2Min = 133;
+int Pedal2Max = 887;
 int DeadZonePercentPedal2 = 2;
 
 //int Pedal3Min = 188;
@@ -25,10 +25,10 @@ int DeadZonePercentPedal2 = 2;
 float PedalsValues[2];
 //float PedalsValues[3];
 
-int Pedal1Diff = (Pedal1Max - Pedal1Min) / 100.0;
-int Pedal1DiffFull = (Pedal1Max - Pedal1Min);
-int Pedal2Diff = (Pedal2Max - Pedal2Min) / 100.0;
-int Pedal2DiffFull = (Pedal2Max - Pedal2Min);
+float Pedal1Diff = (Pedal1Max - Pedal1Min) / 100.0;
+float Pedal1DiffFull = (Pedal1Max - Pedal1Min);
+float Pedal2Diff = (Pedal2Max - Pedal2Min) / 100.0;
+float Pedal2DiffFull = (Pedal2Max - Pedal2Min);
 //int Pedal3Diff = (Pedal3Max - Pedal3Min) / 100.0;
 //int Pedal3DiffFull = (Pedal3Max - Pedal3Min);
 
@@ -45,7 +45,7 @@ int AnalogValue2Max = 0;
 //int AnalogValue3Min = 1024;
 //int AnalogValue3Max = 0;
 
-float DeadZoneAxis(float StickAxis, float DeadZone)
+float DeadZoneAxis2(float StickAxis, float DeadZone)
 {
 	if (StickAxis <= DeadZone)
 		StickAxis = 0;
@@ -55,6 +55,18 @@ float DeadZoneAxis(float StickAxis, float DeadZone)
 	return StickAxis / 100.0;
 }
 
+float DeadZoneAxis(float StickAxis, float DeadZone)
+{
+    StickAxis = constrain(StickAxis, 0.0f, 100.0f); // защита от выхода за пределы
+    
+    if (StickAxis <= DeadZone)
+        return 0.0f;
+    
+    // Ремапим [DeadZone..100] → [0..1]
+    return (StickAxis - DeadZone) / (100.0f - DeadZone);
+}
+
+
 void setup()
 {  
 	DigiJoystick.setX((byte)127);
@@ -62,8 +74,8 @@ void setup()
 	DigiJoystick.setZROT((byte)0);
 	DigiJoystick.setXROT((byte)0);
 	DigiJoystick.setYROT((byte)0);
-	pinMode(3, INPUT_PULLUP); // Shifter
-	pinMode(4, INPUT_PULLUP); // Shifter
+	pinMode(3, INPUT_PULLUP);
+	pinMode(4, INPUT_PULLUP);
 	// Another buttons for actions
     //for (int i = 0; i < 16; i++)
         //pinMode(buttonPins[i], INPUT_PULLUP);
@@ -75,9 +87,9 @@ void loop()
 	AnalogValue2 = analogRead(Pedal_2_Analog_Pin);
 	//AnalogValue3 = analogRead(Pedal_3_Analog_Pin);
 
-	PedalsValues[0] = 1.0 - DeadZoneAxis((AnalogValue1 - Pedal1Min) / Pedal1Diff, DeadZonePercentPedal1);
-	PedalsValues[1] = 1.0 - DeadZoneAxis((AnalogValue2 - Pedal2Min) / Pedal2Diff, DeadZonePercentPedal2);
-	//PedalsValues[2] = 1.0 - DeadZoneAxis((AnalogValue3 - Pedal3Min) / Pedal3Diff, DeadZonePercentPedal3);
+    PedalsValues[0] = 1.0f - DeadZoneAxis((AnalogValue1 - Pedal1Min) / Pedal1Diff, DeadZonePercentPedal1);
+    PedalsValues[1] = 1.0f - DeadZoneAxis((AnalogValue2 - Pedal2Min) / Pedal2Diff, DeadZonePercentPedal2);
+    //PedalsValues[2] = 1.0f - DeadZoneAxis((AnalogValue3 - Pedal3Min) / Pedal3Diff, DeadZonePercentPedal3);
 
 	DigiJoystick.setXROT((byte)(PedalsValues[0] * 255));
 	DigiJoystick.setYROT((byte)(PedalsValues[1] * 255));
