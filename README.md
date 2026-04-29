@@ -5,8 +5,29 @@
 # Gamepad external pedals
 External pedals for gamepads: Xbox, DualSense, DualShock 4, Pro controllers and joycons. Pedals based on DInput or Arduino, compatible with programs: [DSAdvance](https://github.com/r57zone/DSAdvance), [X360Advance](https://github.com/r57zone/X360Advance) and [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/releases). I recommend the Logitech e-uk12 pedals, they are pretty compact and high quality.
 
-[![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171)](https://youtu.be/aK1SV_eXJ_4)
-[![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
+<a href="https://youtu.be/aK1SV_eXJ_4">
+  <img src="https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171" width="260px" />
+</a>
+
+<a href="https://youtu.be/liI_7U_R0as">
+  <img src="https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/4f705212-02a0-4267-b93b-e7d66c801b0b" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/d3141b47-3986-485e-acbb-de3f28de7df8" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/4c560345-1d39-4398-8a46-d799b02c83c6" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/251520d0-42f0-4e78-b3ad-bfc42cc2a13c" width="260px" />
+</a>
 
 ## Soldering
 The first type of connection is used to connect pedals, with 2-pin potentiometers. A 10 kΩ resistor is soldered with one contact to A0, and the second contact to 5V. The second 10kom resistor is soldered to A1 and 5V. The potentiometer of the first pedal is soldered with one pin to A0, and the second pin to ground (GND). The potentiometer of the second pedal is soldered with one pin to A1, and the second pin to ground (GND).
@@ -60,7 +81,7 @@ Simple utility for pressing keyboard keys with external pedals (only DInput).
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/44f1a2d2-4d49-4479-a2ab-efc32ae13789)
 
->Version for Windows XP, Vista, 7, 8.1, 10, 11.
+>Supports Windows XP, Vista, 7, 8, 8.1, 10, 11.
 
 **[Download](https://github.com/r57zone/XboxExternalPedals/releases)**
 

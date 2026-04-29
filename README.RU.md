@@ -4,8 +4,29 @@
 # Gamepad external pedals
 Внешние педали для геймпадов: Xbox, DualSense, DualShock 4, Pro контроллеров и джойконов. Работают педали на базе DInput или Arduino, совместимы с программами: [DSAdvance](https://github.com/r57zone/DSAdvance), [X360Advance](https://github.com/r57zone/X360Advance) и [External Pedals Utility](https://github.com/r57zone/XboxExternalPedals/releases). Рекомендую педали Logitech e-uk12, они довольно компактные и качественные.
 
-[![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171)](https://youtu.be/aK1SV_eXJ_4)
-[![](https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif)](https://youtu.be/liI_7U_R0as)
+<a href="https://youtu.be/aK1SV_eXJ_4">
+  <img src="https://github.com/r57zone/XboxExternalPedals/assets/9499881/f4b55990-d795-4455-918f-a08a59122171" width="260px" />
+</a>
+
+<a href="https://youtu.be/liI_7U_R0as">
+  <img src="https://user-images.githubusercontent.com/9499881/195859587-65cdaca4-5abd-4594-b079-e388721ae25d.gif" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/4f705212-02a0-4267-b93b-e7d66c801b0b" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/d3141b47-3986-485e-acbb-de3f28de7df8" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/4c560345-1d39-4398-8a46-d799b02c83c6" width="260px" />
+</a>
+
+<a href="https://youtu.be/abmBOEUecCI">
+  <img src="https://github.com/user-attachments/assets/251520d0-42f0-4e78-b3ad-bfc42cc2a13c" width="260px" />
+</a>
 
 ## Пайка
 Первый тип подключения используется для подключения педалей с потанциометрами на 3 пина. Центральные пины подключаются на А0 и А1, первый пин подключается на 5В, последний пин на землю (GND).
@@ -58,7 +79,7 @@
 
 ![](https://github.com/r57zone/XboxExternalPedals/assets/9499881/45d2abd2-11ed-4fef-af7e-c29f8c2dd8db)
 
->Версия для Windows XP, Vista, 7, 8.1, 10, 11.
+>Поддерживается Windows XP, Vista, 7, 8, 8.1, 10, 11.
 
 **[Загрузить](https://github.com/r57zone/XboxExternalPedals/releases)**
 
